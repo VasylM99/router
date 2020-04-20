@@ -1,0 +1,11 @@
+.photo-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.photo-box>img{
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+}

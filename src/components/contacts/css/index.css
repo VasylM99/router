@@ -1,0 +1,28 @@
+.container{
+    margin: auto;
+    border: 2px solid rosybrown;
+    display: block;
+    max-width: 300px;
+    min-height: 520px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+.input{
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    background-image: url(../img/search.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    height: 20px;
+
+}
+.search{
+    margin-top: 15px;
+    height: 40px;
+}

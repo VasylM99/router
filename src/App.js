@@ -1,26 +1,55 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-function App() {
+import Layout from './components/layout/index';
+import Contact from './components/contacts/js/index';
+import PostProps from './components/post/js/index';
+import PhotoBox from './components/photo/photo';
+import HomePage from './components/home/index';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Router>
+      <Layout>
+            <Switch>
+              <Route path="/post">
+                <Post />
+              </Route>
+              <Route path="/photo">
+                <Photo />
+              </Route>
+              <Route path="/contacts">
+                <Contacts />
+              </Route>
+              <Route path="/">
+                <Home />
+              </Route>
+              
+            </Switch>
+      </Layout>
+    </Router>
   );
 }
 
-export default App;
+function Home() {
+  return <HomePage />;
+}
+
+function Post() {
+  return (
+      <PostProps />
+  );
+}
+
+function Photo() {
+  return <PhotoBox />;
+}
+
+function Contacts() {
+  return <Contact />;
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/router/static/css/main.fdc31e9d.chunk.css",
+    "main.js": "/router/static/js/main.31dbc31b.chunk.js",
+    "main.js.map": "/router/static/js/main.31dbc31b.chunk.js.map",
+    "runtime-main.js": "/router/static/js/runtime-main.3dcdd744.js",
+    "runtime-main.js.map": "/router/static/js/runtime-main.3dcdd744.js.map",
+    "static/js/2.825dede0.chunk.js": "/router/static/js/2.825dede0.chunk.js",
+    "static/js/2.825dede0.chunk.js.map": "/router/static/js/2.825dede0.chunk.js.map",
+    "index.html": "/router/index.html",
+    "precache-manifest.0aadcae854863e59285bb6413e82657a.js": "/router/precache-manifest.0aadcae854863e59285bb6413e82657a.js",
+    "service-worker.js": "/router/service-worker.js",
+    "static/css/main.fdc31e9d.chunk.css.map": "/router/static/css/main.fdc31e9d.chunk.css.map",
+    "static/js/2.825dede0.chunk.js.LICENSE.txt": "/router/static/js/2.825dede0.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/router/static/media/Roboto-Regular.90679e0c.ttf",
+    "static/media/index.css": "/router/static/media/search.c3ec0065.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3dcdd744.js",
+    "static/js/2.825dede0.chunk.js",
+    "static/css/main.fdc31e9d.chunk.css",
+    "static/js/main.31dbc31b.chunk.js"
+  ]
+}
